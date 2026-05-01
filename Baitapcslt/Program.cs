@@ -1,1 +1,1 @@
-﻿baitapcslt.Buoi2.Ex19.Run();
+﻿baitapcslt.Buoi2.Ex24.Run();
