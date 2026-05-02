@@ -23,7 +23,7 @@ namespace baitapcslt.Buoi3
         }
         public static void Run2()
         {
-            Console.WriteLine("y\tx = y² + 2y + 1");
+            Console.WriteLine("x = y² + 2y + 1");
 
             for (int y = -5; y <= 5; y++)
             {
