@@ -18,8 +18,8 @@ namespace baitapcslt.Buoi3
             Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
             Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
             
-           Console.WriteLine(num2 != 0 ? $"{num1} / {num2} = {num1 / num2}" : "Cannot divide by zero.");
-           Console.WriteLine("Invalid Operator");
+           Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
+           
         }
         public static void Run2()
         {
