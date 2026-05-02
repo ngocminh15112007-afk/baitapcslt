@@ -10,18 +10,16 @@ namespace baitapcslt.Buoi3
         {
             Console.Write("Enter first number: ");
             double num1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Enter operator (+, -, *, /): ");
-            char op = Console.ReadKey().KeyChar;
-            Console.WriteLine();
+            
             Console.Write("Enter second number: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
 
-            if (op == '+') Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
-            else if (op == '-') Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
-            else if (op == '*' || op == 'x') Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
-            else if (op == '/')
-                Console.WriteLine(num2 != 0 ? $"{num1} / {num2} = {num1 / num2}" : "Cannot divide by zero.");
-            else Console.WriteLine("Invalid Operator");
+           Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+            Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+            Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+            
+           Console.WriteLine(num2 != 0 ? $"{num1} / {num2} = {num1 / num2}" : "Cannot divide by zero.");
+           Console.WriteLine("Invalid Operator");
         }
         public static void Run2()
         {
