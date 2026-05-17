@@ -6,7 +6,7 @@ namespace baitapcslt.Buoi3
 {
     public class NumberTriangle
     {
-        public static void Main()
+        public static void  Run()
         {
             Console.Write("Nhập số hàng cho tam giác: ");
             int rows = Convert.ToInt32(Console.ReadLine());

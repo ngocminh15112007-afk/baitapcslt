@@ -9,9 +9,9 @@ namespace baitapcslt.Buoi3
         public static void Run()
         {
             Console.WriteLine("Enter a character: ");
-            char c = char.Parse(Console.ReadLine()).Key char;
+            char c = char.Parse(Console.ReadLine()) ;
             Console.WriteLine(c);
-            if (char.IsDigit) (c))
+            if (char.IsDigit(c))
             {
                 Console.WriteLine("The character is a digit.");
             }
@@ -25,4 +25,5 @@ namespace baitapcslt.Buoi3
             }
 
         }
+    }
 }

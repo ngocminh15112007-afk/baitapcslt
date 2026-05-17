@@ -6,7 +6,7 @@ namespace baitapcslt.Buoi3
 {
     public class Bai5
     {
-        public static void Main()
+        public static void Run()
         {
             Console.WriteLine("Enter 10 integers separated by spaces: ");
             string input = Console.ReadLine();

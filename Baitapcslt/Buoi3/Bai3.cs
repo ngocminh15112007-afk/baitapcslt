@@ -6,7 +6,7 @@ namespace baitapcslt.Buoi3
 {
     internal class Bai3
     {
-        public static void Main()
+        public static void Run5()
         {
             Console.WriteLine("Enter the value for X coordinate: ");
             int x = int.Parse(Console.ReadLine());

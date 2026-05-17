@@ -124,76 +124,9 @@ namespace baitapcslt.Buoi1
             Console.ReadLine();
 
         }
-        static void Main(string[] args)
-        {
-            int choice = -1;
-            do
-            {
-                Console.Clear();
-                Console.WriteLine("=== Menu ===");
-                Console.WriteLine("1. Sum Two Numbers");
-                Console.WriteLine("2. Swap Variables");
-                Console.WriteLine("3. Multiply Two Floating Point Numbers");
-                Console.WriteLine("4. Convert Feet to Meters");
-                Console.WriteLine("5. Temperature Conversion");
-                Console.WriteLine("6. Size of Data Types");
-                Console.WriteLine("7. Print ASCII Value");
-                Console.WriteLine("8. Area of Circle");
-                Console.WriteLine("9. Area of Square");
-                Console.WriteLine("10. Convert Days to Years, Weeks and Days");
-                Console.WriteLine("0. Exit");
-                Console.Write("Enter your choice: ");
-                choice = Convert.ToInt32(Console.ReadLine());
-                switch (choice)
-                {
-                    case 1:
-                        SumTwoNumbers();
-                        break;
-                    case 2:
-                        SwapVariables();
-                        break;
-                    case 3:
-                        MultiplyTwoFloatingPointNumbers();
-                        break;
-                    case 4:
-                        FeetToMeter();
-                        break;
-                    case 5:
-                        ConvertTemperature();
-                        break;
-                    case 6:
-                        SizeofData();
-                        break;
-                    case 7:
-                        PrintASCII();
-                        break;
-                    case 8:
-                        AreaOfCircle();
-                        break;
-                    case 9:
-                        AreaOfSquare();
-                        break;
-                    case 10:
-                        ConvertDays();
-                        break;
-                    case 0:
-                        Console.WriteLine("het dui do, Bye nha hihi!");
-                        break;
-                    default:
-                        Console.WriteLine("nhap sai r dot qua");
-                        break;
-
-                }
-
-                {
-                    if (choice != 0)
-                        Console.WriteLine(" nhan phim bay de return menu");
-                    Console.ReadKey();
-                }
-
-            } while (choice != 0);
+       
 
 
         }
     }
-}
+

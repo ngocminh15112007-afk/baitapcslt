@@ -6,7 +6,7 @@ namespace baitapcslt.Buoi3
 {
     public class Bai7
     {
-    public static void Main()
+    public static void Run()
         {
             Console.WriteLine("Enter a number: ");
             int num = int.Parse(Console.ReadLine());

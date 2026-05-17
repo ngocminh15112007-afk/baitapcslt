@@ -6,7 +6,7 @@ namespace baitapcslt.Buoi3
 {
     internal class Bai2
     {
-        public static void Main()
+        public static void Run4()
         {
             Console.WriteLine("Enter 3 integers separated by spaces: ");
             string input = Console.ReadLine();

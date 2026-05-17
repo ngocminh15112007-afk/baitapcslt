@@ -15,7 +15,7 @@ namespace baitapcslt.Buoi3
             int b = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter an operator (+, -, *, /): ");
             char op = Console.ReadLine()[0];
-            if (op ==  '-') 
+            if (op == '-')
             {
                 Console.WriteLine("a-b = " + (a - b));
             }
@@ -42,5 +42,6 @@ namespace baitapcslt.Buoi3
             {
                 Console.WriteLine("Invalid operator");
             }
+        }
     }
 }

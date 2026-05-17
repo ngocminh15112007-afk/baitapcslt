@@ -6,7 +6,7 @@ namespace baitapcslt.Buoi3
 {
     public class Bai9
     {
-        public static void Main()
+        public static void Run()
         {
             Console.WriteLine("Nhập số lượng nhân tử: ");
             int n = Convert.ToInt32(Console.ReadLine());
