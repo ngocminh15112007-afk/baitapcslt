@@ -10,10 +10,10 @@ namespace baitapcslt.Buoi5
         public static bool KiemTraNamNhuan(int year)
         {
             bool ketqua = true;
-            if (year % 4 == 0) 
-            { ketqua = true;
-                    else ketqua = false;
-                        };
+            if (year % 4 == 0)
+            { ketqua = true; }
+            else ketqua = false;
+        
             Console.WriteLine(ketqua);
             return ketqua;
         }

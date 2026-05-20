@@ -3,13 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace baitapcslt.Buoi5
+namespace baitapcslt.Buoi6
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Bai15.XoaTrungLap("grammm");
+            Ex3.Max(null);
+
         }
     }
 }
