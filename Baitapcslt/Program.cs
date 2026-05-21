@@ -9,7 +9,7 @@ namespace baitapcslt.Buoi6
     {
         static void Main(string[] args)
         {
-            Ex3.Max(null);
+            Ex4.Xoakitu(null);
 
         }
     }
